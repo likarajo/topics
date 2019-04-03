@@ -29,7 +29,7 @@ object Topics {
     //if (args.length == 0) {println("i need two parameters ")}
 
     //val corpus: RDD[String] = sc.wholeTextFiles(args(0)).map(_._2)
-    val corpus: RDD[String] = sc.wholeTextFiles("sparkDocs").map(_._2)
+    val corpus: RDD[String] = sc.wholeTextFiles("data/news").map(_._2)
 
     // Split each document into a sequence of terms (words)
     val stopWordSet = StopWordsRemover.loadDefaultStopWords("english").toSet
