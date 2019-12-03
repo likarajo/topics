@@ -1,4 +1,11 @@
+# Mac files
 .DS_Store
+
+# IDE files
 .idea
+.vscode
+.ipynb_checkpoints
+
+# Class files
 project
 target
