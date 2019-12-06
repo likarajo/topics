@@ -1,2 +1,8 @@
 pandas
 sklearn
+wikipedia
+re
+nltk
+gensim
+pickle
+pyLDAvis
